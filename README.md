@@ -1,7 +1,3 @@
-## Currently working as a professional idiot
-
-ASL: 25, M, Tokyo
-
 <p align="left">
   <a href="https://github.com/chiyonn">
     <img height="20" src="https://komarev.com/ghpvc/?username=chiyonn" />
@@ -11,7 +7,6 @@ ASL: 25, M, Tokyo
   </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="32" height="32"/>
@@ -65,4 +60,49 @@ ASL: 25, M, Tokyo
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="32" height="32"/>
   </a>
 </p>
+
+Linuxが好きです。
+Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っています。
+Archはサブで勉強中。
+いつかはOSSに貢献したいです。ﾋｨﾝ
+
+RPi4が2台余っているのでなんか作りたいです。
+
+## 使用ソフトウェア
+- OS: Ubuntu24.04(どうせすぐ変わる)
+- ウィンドウマネージャ: i3wm
+- エディタ: NeoVim
+
+## 使用ハードウェア
+- キーボード: Ducky mini One Mecha
+- マウス: Logicool MX Master 3S
+- オーディオインターフェース: Native Instruments KOMPLETE AUDIO6
+- スピーカー: Yamaha H7
+- その他: Elgato Stream Deck +
+
+## 得意
+- Web系
+- Python
+
+## 興味・関心
+- Docker: 最近、開発をすべてDocker上で行うように心がけ始めました。なにもわかりません。
+- データ構造: 御多分に漏れずよく悩まされていますが、考えるのはとても好きです。
+- Go: 並列処理をわからされたい
+
+## 現在のメインプロジェクト
+### VENDIQ
+個人事業として取り組んでいる輸入物販のリサーチから仕入れまでの効率化ツール。
+※リサーチロジックや業務ロジックがみえちゃうので非公開です。
+#### 技術スタック
+フロントエンド
+- React
+- TypeScript
+バックエンド
+- FastAPI
+- MySQL
+その他
+- Selenium(スクレイピング)
+- Docker
+
+
 
