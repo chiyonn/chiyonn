@@ -1,1 +1,1 @@
-sudo pacman -S tree
+sudo pacman -S tree wl-clipboard
