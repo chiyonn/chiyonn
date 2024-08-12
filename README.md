@@ -62,18 +62,19 @@
 </p>
 
 Linuxが好きです。
-Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っています。
-Archはサブで勉強中。
+Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っていました。
+今はArch勉強中。
 いつかはOSSに貢献したいです。ﾋｨﾝ
 
 RPi4が2台余っているのでなんか作りたいです。
 
 ## 使用ソフトウェア
-- OS: Ubuntu24.04(どうせすぐ変わる)
-- ウィンドウマネージャ: i3wm
+- OS: Arch Linux
+- ウィンドウマネージャ: sway
 - エディタ: NeoVim
 
 ## 使用ハードウェア
+- 端末: ThinkPad X1 Carbon Gen6
 - キーボード: Ducky mini One Mecha
 - マウス: Logicool MX Master 3S
 - オーディオインターフェース: Native Instruments KOMPLETE AUDIO6
