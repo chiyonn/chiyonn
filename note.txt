@@ -3,16 +3,6 @@
 nmcli device wifi connect <SSID> password <PASSKEY> ifname <INTERFACE>
 ```
 
-### install yay
-```terminal
-sudo pacman -S --needed base-devel git
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ..
-rm -fr yay
-```
-
 ### install japanese
 uncomment locale for japanese
 ```diff
