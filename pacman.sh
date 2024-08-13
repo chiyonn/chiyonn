@@ -1,1 +1,1 @@
-sudo pacman -S tree wl-clipboard
+sudo pacman -S tree wl-clipboard git firefox
