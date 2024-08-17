@@ -1,0 +1,19 @@
+# wallpaper
+output * bg $HOME/.config/sway/background.png fill
+
+# display placement
+output HDMI-A-1 scale 0.8
+output HDMI-A-1 pos 0 0 res 3840x2160
+output eDP-1 scale 0.8
+output eDP-1 pos 1606 2710 res 2560x1440
+
+mode "resize" {
+    bindsym $left resize shrink width 20px
+    bindsym $down resize grow height 20px
+    bindsym $up resize shrink height 20px
+    bindsym $right resize grow width 20px
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
