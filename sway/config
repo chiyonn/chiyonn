@@ -29,7 +29,7 @@ bindsym $mod+Shift+$right move right
 ### workspace control
 
 # appearance
-default_border pixel 4
+default_border pixel 8
 gaps inner 4
 gaps outer 4
 
@@ -73,19 +73,21 @@ bindsym $mod+v split toggle
 bindsym $mod+f fullscreen
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+Shift+f focus mode_toggle
-bindsym $mod+a focus parent
+bindsym $mod+Shift+p sticky
 
 
 ### idle control
+set $wallpaper "$HOME/.config/sway/background.png"
 exec swayidle -w \
-    timeout 300 'swaylock -f -c 000000' \
+    timeout 300 'swaylock -f -i $wallpaper' \
     timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-    before-sleep 'swaylock -f -c 000000'
+    before-sleep 'swaylock -f -i $wallpaper'
 
-bindsym $mod+Shift+Backspace exec swaylock -f -c 000000
+bindsym $mod+Backspace exec swaylock -f -i $wallpaper
+bindsym $mod+Shift+BackSpace exec systemctl suspend
 
-    bindsym $mod+Shift+c reload
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
     
 ### status bar
 bar {
