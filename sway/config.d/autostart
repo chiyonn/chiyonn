@@ -1,1 +1,5 @@
 exec fcitx5 &
+
+# for screen sharing
+# require: pacman -S pipewire xdg-desktop-portal xdg-desktop-portal-wlr
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
