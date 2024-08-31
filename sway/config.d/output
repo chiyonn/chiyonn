@@ -1,6 +1,10 @@
 # wallpaper
 output * bg $HOME/.config/sway/background.png fill
 
+# keybind
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+
 # display placement
 output HDMI-A-1 scale 0.8
 output HDMI-A-1 pos 0 0 res 3840x2160
