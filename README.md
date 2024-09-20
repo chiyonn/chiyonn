@@ -62,7 +62,7 @@
 </p>
 
 Linuxが好きです。
-Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っていました。
+Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っていました。今はsway。
 今はArch勉強中。
 いつかはOSSに貢献したいです。ﾋｨﾝ
 
