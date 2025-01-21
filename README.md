@@ -62,8 +62,8 @@
 </p>
 
 Linuxが好きです。
-Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っていました。今はsway。
-今はArch勉強中。
+Kubuntu, Fedora, Regolith, Rockyなどをi3wmで使っていました。今はArch。そしてNixOSに引っ越したい。
+あとSwayからHyprlandにも引っ越したい。
 いつかはOSSに貢献したいです。ﾋｨﾝ
 
 RPi4が2台余っているのでなんか作りたいです。
@@ -75,35 +75,12 @@ RPi4が2台余っているのでなんか作りたいです。
 
 ## 使用ハードウェア
 - 端末: ThinkPad X1 Carbon Gen6
-- キーボード: Ducky mini One Mecha
+- キーボード: HHKB Professtional Type-S
 - マウス: Logicool MX Master 3S
 - オーディオインターフェース: Native Instruments KOMPLETE AUDIO6
 - スピーカー: Yamaha H7
-- その他: Elgato Stream Deck +
+- その他:
 
-## 得意
-- Web系
-- Python
-
-## 興味・関心
-- Docker: 最近、開発をすべてDocker上で行うように心がけ始めました。なにもわかりません。
-- データ構造: 御多分に漏れずよく悩まされていますが、考えるのはとても好きです。
-- Go: 並列処理をわからされたい
-
-## 現在のメインプロジェクト
-### VENDIQ
-個人事業として取り組んでいる輸入物販のリサーチから仕入れまでの効率化ツール。
-※リサーチロジックや業務ロジックがみえちゃうので非公開です。
-#### 技術スタック
-フロントエンド
-- React
-- TypeScript
-バックエンド
-- FastAPI
-- MySQL
-その他
-- Selenium(スクレイピング)
-- Docker
 
 
 
